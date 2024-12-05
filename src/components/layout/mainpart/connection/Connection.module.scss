@@ -1,0 +1,33 @@
+@import 'src/assets/styles/variables';
+
+$good-color: green;
+$average-color: orange;
+$poor-color: red;
+
+.connectionQuality {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    display: flex; /* Добавлено для Flexbox */
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #D5D5D5;
+  
+    .icon {
+      font-size: 50px;
+  
+      &.good {
+        color: $good-color;
+      }
+  
+      &.average {
+        color: $average-color;
+      }
+  
+      &.poor {
+        color: $poor-color;
+      }
+    }
+  }

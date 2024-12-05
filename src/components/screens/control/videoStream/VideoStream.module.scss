@@ -1,0 +1,22 @@
+@import 'src/assets/styles/variables';
+
+.video {
+    position: relative;
+    top: 94px;
+    bottom: 72px;
+    left: 44px;
+    right: 494px;
+    background-color: $dark;
+    border-radius: 20px;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    font-family: $default-font;
+    font-size: 20px;
+    color: $accent;
+}

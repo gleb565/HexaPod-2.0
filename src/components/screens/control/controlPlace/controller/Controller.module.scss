@@ -1,0 +1,11 @@
+@import 'src/assets/styles/variables';
+
+.controller {
+    width: 100px;
+    height: 100px;
+    background-color: $dark;
+    border-radius: 10px;
+    position: absolute;
+    top: 110px;
+    right: 145px;
+}

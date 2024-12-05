@@ -1,0 +1,46 @@
+@import 'src/assets/styles/variables';
+
+.leftFront {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+    label {
+        margin-right: 20px; 
+        font-family: $default-font;
+        font-size: 20px;
+        color: #000;
+    }
+
+    input {
+        margin-right: 15px; 
+        width: 150px;
+        height: 31px;
+        border: none;
+        outline: none; 
+        border-radius: 10px;
+    }
+    div {
+        font-family: $default-font;
+        font-size: 20px;
+        color: #000;
+    }
+}
+
+.top {
+    position: absolute;
+    top: 83px;
+    left: 56px;
+}
+
+.indent {
+    margin-bottom: 72px;
+}
+
+.left {
+    input {
+        margin-left: 18px;
+    }
+}

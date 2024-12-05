@@ -1,0 +1,16 @@
+@import 'src/assets/styles/variables';
+
+button {
+    position: absolute;
+    top: 630px;
+    left: 1120px;
+    width: 387px;
+    height: 63px;
+    background-color: $purple;
+    color: #fff;
+    font-family: $default-font;
+    font-size: 26px;
+    z-index: 10;
+    border: none;
+    border-radius: 10px;
+}

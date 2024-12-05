@@ -1,0 +1,68 @@
+@import 'src/assets/styles/variables';
+
+.battery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.battery {
+  position: relative;
+  display: inline-block;
+}
+
+.battery-icon {
+  width: 72px;
+  height: 72px;
+  color: black;
+  position: absolute;
+  top: -10px;
+  right: 300px;
+}
+
+.battery-level {
+  position: absolute;
+  top: 26px;
+  left: -3px;
+  transform: translate(50%, -50%);
+  width: calc(var(--level) * 0.5px); /* Пропорционально уменьшаем ширину */
+  height: 30px;
+  background-color: $purple;
+  transition: width 0.5s ease-in-out;
+}
+
+.battery.charging.battery-level {
+  background-color: #0f0; /* Зеленый для зарядки */
+}
+
+.battery.low.battery-level {
+  background-color: #f00; /* Красный для низкого заряда */
+}
+
+.battery-charging-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px; /* Размер иконки зарядки */
+  color: #0f0; /* Зеленый для зарядки */
+  display: none;
+}
+
+.battery.charging.battery-charging-icon {
+  display: block;
+}
+
+.battery-percentage {
+  position: absolute;
+  top: 25px;
+  right: 312px;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-family: $default-font;
+  color: black;
+}
+
+.battery.low.battery-percentage {
+  color: #f00; /* Красный для низкого заряда */
+}

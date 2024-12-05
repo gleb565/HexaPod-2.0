@@ -1,0 +1,23 @@
+@import 'src/assets/styles/variables';
+
+.header{
+    background: #D5D5D5;
+    height: 100%;
+    width: 448px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.time{
+    height: 51px;
+    width: 387px;
+    background: $accent;
+    border-radius: 10px;
+    position:absolute;
+    top: 20px;
+    right: 30px;
+}
+
+
+

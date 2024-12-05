@@ -1,0 +1,20 @@
+@import 'src/assets/styles/variables';
+
+.main {
+    width: 1000px;
+    height: 600px;
+    background-color: #D5D5D5;
+    position: absolute;
+    top: 97px;
+    left: 44px;
+    border-radius: 20px;
+}
+
+.servo {
+    font-family: $default-font;
+    font-size: 32px;
+    color: #000;
+    position: absolute;
+    top: -10px;
+    left: 450px;
+}
